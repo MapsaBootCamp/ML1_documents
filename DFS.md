@@ -13,10 +13,37 @@
  <ul>
  <li><b> preordering </b> که گره ها به ترتیب ابتدا به انتهایی که در الگوریتم بازدید می شوند مرتب می شوند.</li>
  <li><b> postordering </b> که گره ها به ترتیب از آخرین گره ای که بازدید شده به گره ابتدایی مرتب می شوند.</li>
- <li><b> reverse postordering </b> در این روش ترتیب انتخاب گره در هر مرتبه معکوس شده و باز گره ها به ترتیب بازدید از ابتدا به انتها مرتب می شوند و این روش با postordering متفاوت است.</li>
+ <li><b> reverse preordering </b> در این روش ترتیب انتخاب گره در هر مرتبه معکوس شده و باز گره ها به ترتیب بازدید از ابتدا به انتها مرتب می شوند و این روش با postordering متفاوت است.</li>
  <li><b> reverse postordering </b> این جا نیز ترتیب انتخاب در هر مرحله معکوس شده و دوباره مانند postordering گره های بازدید شده (باالگوریتم معکوس) از آخرین گره به اولین مرتب می شوند و بدیهی است که لیست بدست آمده با preordering متفاوت است.</li>
 <li>برای درخت های دودویی دو حالت in-ordering و reverse in-ordering نیز وجود دارد</li>
  </ul>
- به طور مثال براساس گراف زیر نتیجه ای هر یک از مرتب سازی ها ارائه شده است.
- <p><img src="If-then-else-control-flow-graph.png" alt="image for ordering example" width="25%">
-</div>
+ به طور مثال براساس گراف زیر و این فرض که در الگوریتم DFS استفاده شده الویت از چپ به راست است، نتیجه هر یک از مرتب سازی ها ارائه شده است.
+ </div>
+ <table>
+ <td><img src="If-then-else-control-flow-graph.png" alt="image for ordering example"></td>
+ <td>
+ <table>
+  <tr>
+   <th>نتیجه</th>
+   <th>روش مرتب سازی</th>
+  </tr>
+  <tr>
+    <td>ABCD</td>
+    <td>preordering</td>
+  </tr>
+  <tr>
+    <td>DCBA</td>
+    <td>postordering</td>
+  </tr>
+  <tr>
+    <td>ACBD</td>
+    <td>reverse preordering</td>
+  </tr>
+  <tr>
+    <td>DBCA</td>
+    <td>reverse postordering</td>
+  </tr>
+</table>
+  </td>
+ </table>
+
