@@ -9,9 +9,9 @@
 </div>
 
 Text  =  nimanimanima
-
+<p style:"color=red">nima</p>nimanima
 Process:
-nimanimanima
+nima
 
 nimanimanima
 
