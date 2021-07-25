@@ -12,10 +12,10 @@ Text  =  nimanimanima
 
 Process:
 
-<span style="color:red"> nima </span>
+<span style="color: red"> nima </span>
  
 n\*iman\*imanima
-
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
 nimanimanima
 
 nimanimanima
