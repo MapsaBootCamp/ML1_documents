@@ -1,4 +1,9 @@
-﻿<div dir="rtl">
+﻿<style>
+r { color: Red }
+o { color: Orange }
+g { color: Green }
+</style>
+ <div dir="rtl">
 # الگوریتم رابین-کارپ
 
 رابین-کارپ برای پیدا کردن تعداد دفعات تکرار یک رشته‌ی کوتاه روی یک رشته‌ی طولانی‌تر است. این الگوریتم مثلا هنگامی به کار می‌رود که بخواهیم یک کلمه را در یک متن جستجو کنیم، ویرایش انجام دهیم و غلط‌های املایی و نگارشی را بگیریم و یا تحلیل محتوا انجام دهیم.
@@ -11,10 +16,8 @@
 Text  =  nimanimanima
 
 Process:
-<h3 style="color:#ff0000">Danger</h3>
 
-<span style="color: red"> nima </span>
-$\color{color-code}{your-text-here}$
+- <r>TODO:</r> Important thing to do
 
 n\*iman\*imanima
 nimanimanima
