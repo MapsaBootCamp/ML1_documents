@@ -12,7 +12,7 @@ Text  =  nimanimanima
 
 Process:
 
-<p style="color:red;"> nima </p>
+<font color="red;"> nima </font>
  
 n\*iman\*imanima
 
