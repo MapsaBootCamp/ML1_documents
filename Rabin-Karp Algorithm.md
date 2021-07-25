@@ -13,21 +13,21 @@ Text  =  nimanimanima
 Process:
 
 
+\*nima\*nimanima
+
 n\*iman\*imanima
 
-nimanimanima
+ni\*mani\*manima
 
-nimanimanima
+nima\*nima\*nima
 
-nimanimanima
+niman\*iman\*ima
 
-nimanimanima
+nimani\*mani\*ma
 
-nimanimanima
+nimanim\*anim\*a
 
-nimanimanima
-
-nimanimanima
+nimanima\*nima\*
 
  دو بار تکرار
 <div dir="rtl">
