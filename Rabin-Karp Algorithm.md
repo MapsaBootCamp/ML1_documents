@@ -7,27 +7,29 @@
 
 به عنوان مثال می‌خواهیم در متن زیر ببینیم کلمه‌ی mani چند بار تکرار شده است.
 </div>
+
 Text  =  nimanimanima
 
-Process: nimanimanima
+Process:
+nimanimanima
 
-`	      `nimanimanima
+nimanimanima
 
-`	      `nimanimanima
+nimanimanima
 
-`	      `nimanimanima
+nimanimanima
 
-`	      `nimanimanima
+nimanimanima
 
-`	      `nimanimanima
+nimanimanima
 
-`	      `nimanimanima
+nimanimanima
 
-`	      `nimanimanima
+nimanimanima
 
-`	      `nimanimanima
+nimanimanima
 
-`				`à دو بار تکرار
+ دو بار تکرار
 
 می‌توان تصور کرد که پیچیدگی زمانی این کار چقدر بالاست. اگر فرض کنیم که طول رشته‌ی اول n است و طول رشته‌ی دوم m، در این حالت یک O(n) داریم، چون باید رشته‌ی اول یک بار پیمایش شود. یک O(m) هم داریم چون هر بار به اندازه‌ی طول رشته‌ی دوم هم بررسی انجام می‌گیرد. بنابراین به لحاظ زمانی O(nm) داریم که در بدترین حالت به O(n2) هم می‌رسد.
 
@@ -36,12 +38,13 @@ Process: nimanimanima
 ![](Aspose.Words.f5548e41-8e3d-496d-b75e-8008a81ffd2d.001.png)
 
 یکی از روش‌های محاسبه‌ی hash value  به صورت زیر است: 
-
+```
 H[0] = n \* P^3  +  i \* P^2  +  m \* P  +  a
 
 H[1] = i \* P^3  +  m \* P^2  +  a \* P  +  n
 
-H[2] = m \* P^3  +  a \* P^2  +  n \* P  +  i 
+H[2] = m\* P^3  +  a \* P^2  +  n \* P  +  i
+```
 
 چنان که مشخص است، قسمتی از محاسبات مقدار عددی هر رشته، در محاسبات خط قبل تکرار شده است. مثلا در عبارت بالا، جمله‌ی دوم به بعد در H[0] ضربدر یک P شده و در H[1] آمده است. این الگو را می‌توان در خط بعد نیز مشاهده است. این موضوع بسیار در سبک کردن محاسبات کمک‌کننده است.
 
