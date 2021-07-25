@@ -14,6 +14,7 @@ Process:
 <h3 style="color:#ff0000">Danger</h3>
 
 <span style="color: red"> nima </span>
+$\color{color-code}{your-text-here}$
 
 n\*iman\*imanima
 nimanimanima
