@@ -1,8 +1,4 @@
-﻿<style>
-r { color: Red }
-o { color: Orange }
-g { color: Green }
-</style>
+﻿
  <div dir="rtl">
 # الگوریتم رابین-کارپ
 
@@ -17,9 +13,9 @@ Text  =  nimanimanima
 
 Process:
 
-- <r>TODO:</r> Important thing to do
 
-n\*iman\*imanima
+n\*iman\*imanima{: style="color: red; opacity: 0.80;" }
+
 nimanimanima
 
 nimanimanima
