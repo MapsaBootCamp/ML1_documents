@@ -40,6 +40,7 @@ nimanimanima
 
 <div dir="rtl">
 یکی از روش‌های محاسبه‌ی hash value  به صورت زیر است:
+ 
  <div>
   
 ```
