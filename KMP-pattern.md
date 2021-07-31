@@ -24,7 +24,7 @@
   
 ```
 
-pat[] = " **AAACAAAA** "
+pat[] = "**AAACAAAA**"
 
 len = 0, i  = 0.
 
@@ -129,9 +129,9 @@ We stop here as we have constructed the whole lps[].
 
 ```
 
-txt[] = " **AAAA**ABAAABA" 
+txt[] = "**AAAA**ABAAABA" 
 
-pat[] = **"AAAA"**
+pat[] = "**AAAA**"
 
 lps[] = {0, 1, 2, 3} 
 
